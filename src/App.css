@@ -1,0 +1,88 @@
+.weekly-container {
+  display: flex;
+  justify-content: center;
+}
+
+* {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.day-widget {
+  min-width: 120px;
+  align-content: center;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.day-widget .description {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.app {
+  background: #003366;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+.today-container {
+  padding: 10px 10px;
+  color: white;
+  text-align: center;
+}
+
+.today-container .temperature {
+  margin: 0;
+  font-weight: 300;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.today-container .city-name {
+  margin: 0;
+}
+
+.header {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search {
+  height: 30px;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  outline: none;
+  color: white;
+  padding-left: 10px;
+}
+
+.hourly-container {
+  display: flex;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 15px 0;
+  overflow: auto;
+}
+
+.hour-widget .description {
+  font-size: 14px;
+  opacity: 0.5;
+  font-weight: 300;
+}
+
+.hourly-container .hour-widget {
+  min-width: 80px;
+  align-content: center;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
